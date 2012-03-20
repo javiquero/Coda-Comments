@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CodaScriptPlugIn</string>
+	<key>CFBundleIconFile</key>
+	<string>plug-in</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.panic.CodaScriptPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>3</string>
+	<key>NSPrincipalClass</key>
+	<string>CodaScriptPlugIn</string>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>input</key>
+			<string>document</string>
+			<key>keyEquivalent</key>
+			<string>@7</string>
+			<key>keyEquivalentConflict</key>
+			<true/>
+			<key>name</key>
+			<string>Add line</string>
+			<key>output</key>
+			<string>replaceSelectedText</string>
+			<key>script</key>
+			<string>add_line_comment.php</string>
+			<key>setInsertionPoint</key>
+			<true/>
+			<key>uuid</key>
+			<string>7B92D1D1-31B5-4A3B-AF41-294F3FBB9407</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>input</key>
+			<string>document</string>
+			<key>keyEquivalent</key>
+			<string>~@7</string>
+			<key>keyEquivalentConflict</key>
+			<true/>
+			<key>name</key>
+			<string>Add block</string>
+			<key>output</key>
+			<string>replaceSelectedText</string>
+			<key>script</key>
+			<string>add_block_comment.php</string>
+			<key>setInsertionPoint</key>
+			<true/>
+			<key>uuid</key>
+			<string>F09A1C65-2DAD-42A3-8F6B-0CA4134AD131</string>
+		</dict>
+	</array>
+</dict>
+</plist>
